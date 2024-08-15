@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUNCING BALL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: rgb(54, 50, 50);
+            border: 1px solid rgb(96, 85, 85);
+            width: 80vw;
+            height: 80vh;
+            position: absolute;
+            top: 59px;
+            left: 130px;
+            display: flex;
+            align-items: end;
+        }
+        .ball {
+            background-color: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            animation: moveX 5s ease-in-out infinite forwards, moveY 5s ease-in-out infinite forwards;
+        }
+        @keyframes moveX {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(60vw); }
+            100% { transform: translateX(0); }
+        }
+        @keyframes moveY {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-60vh); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

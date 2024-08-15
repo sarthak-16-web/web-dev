@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.main {
+ 
+    background-image: url(backnetflix.jpg);
+    background-position:top;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 98vh;
+    position: relative;
+}
+
+.box{
+    height: 98vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+}
+nav span{
+ z-index: 10;
+
+}
+.button1{
+    position: relative;
+    z-index: 10;
+   
+} 
+
+.button1 :first-child{
+    
+    width: 126px;
+    font-weight:700;
+    font-style: normal;
+    height: 38px;
+    background-color: transparent   ;
+    border: 1px solid gray;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.button1 :last-child{
+    position:absolute;
+    left: 146px;
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid transparent;
+    width: 89px;
+    height: 38px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.text{
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+position: absolute;
+top: 32px;
+left:275px;
+
+}
+.text span1{
+    font-size: xx-large;
+   
+   
+}
+.text span2{
+    font-size:medium;
+}
+.text span3{
+    font-size: x-large;
+    
+}
+
+.gola :first-child{
+    background-color: transparent;
+    color: white;
+    width: 364px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2PX solid white;
+}
+
+.gola :last-child{
+    color: white;
+    border: 2PX solid ;
+    border: 1px solid;
+    width: 213px;
+    height: 56px;
+    border: 1px solid transparent;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fo{
+    position: absolute;
+    height: 8px;
+    width: 99.4vw;
+    background-color: darkgray;
+    bottom: 4vh;
+}
+
+.space{
+    position: absolute;
+    left: -120px;
+    display: flex;
+    width: 99.4vw;
+    height: 450px;
+    top: 40px;
+     justify-content:end;
+     align-items: center;
+
+}
+
+img{
+    /* position: relative; */
+    z-index: 10;
+}
+
+video{
+    position: absolute;
+    width: 362px;
+    left: 925px;
+    top: 117px;
+    
+}
+.ro{
+    position: absolute;
+    height: 8px;
+    width: 99.4vw;
+    background-color: darkgray;
+    bottom: 4vh;
+}
+
+
